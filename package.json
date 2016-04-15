@@ -1,0 +1,26 @@
+{
+  "name": "cuty-assembler",
+  "version": "0.0.1",
+  "description": "A very simple assembler. Built for project cuty. Currently targets 8051, but should be adaptable.",
+  "keywords": [
+    "assembler, asm, 8051"
+  ],
+  "homepage": "https://quaxio.com/cuty",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alokmenghrajani/cuty-assembler.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-nodeunit": "~0.4.1"
+  },
+  "dependencies": {
+    "cuty-parser-combinator": "0.0.3"
+  }
+}
